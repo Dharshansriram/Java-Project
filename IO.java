@@ -10,6 +10,7 @@ public class IO {
         } catch (Exception e) {
             System.out.println("Input error: Please enter a valid integer.");
         } finally {
+            System.out.println("hyh");
             scanner.close();
         }
     }
