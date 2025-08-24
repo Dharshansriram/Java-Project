@@ -1,3 +1,4 @@
+
 import java.net.*;
 import java.io.*;
 
@@ -23,7 +24,7 @@ public class Server {
         System.err.println("accept failed");
         System.exit(1);
     }
-    System.out.println("Connection Successful");
+    System.out.println("Connectin Successful");
     System.out.println("Waiting for connection");
     PrintWriter out = new PrintWriter(clientSocket.getOutputStream(),true);
     BufferedReader in = new BufferedReader(new InputStreamReader(clientSocket.getInputStream()));
@@ -42,3 +43,4 @@ public class Server {
     serverSocket.close();
     }
 }
+
