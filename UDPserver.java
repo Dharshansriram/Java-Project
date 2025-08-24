@@ -26,7 +26,7 @@ public class UDPserver {
             InetAddress ipaddress= recvpack.getAddress();
             int port= recvpack.getPort();
             String capsent;
-            System.out.println("Request for host"+ sen);
+            System.out.println("Request for Host:"+ sen);
             if(indexOf(hosts,sen)!=-1)
             
                 capsent=ip[indexOf(hosts,sen)];
